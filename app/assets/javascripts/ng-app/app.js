@@ -1,7 +1,7 @@
 // Create angular module "nachApp" and pass in ui.router and templates (injecting extra angular dependencies)
 var app = angular.module('nachApp', ['ui.router', 'templates']);
 
-app.config(function($stateProvider, $urlRouterProvider) {
+app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
 $urlRouterProvider.otherwise('/');
 
@@ -17,4 +17,4 @@ $urlRouterProvider.otherwise('/');
         })
 
 
-});
+}]);
