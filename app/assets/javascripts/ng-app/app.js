@@ -1,5 +1,5 @@
 // Create angular module "nachApp" and pass in ui.router and templates (injecting extra angular dependencies)
-var app = angular.module('nachApp', ['ui.router']);
+var app = angular.module('nachApp', ['ui.router', 'templates']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 
@@ -9,7 +9,7 @@ $urlRouterProvider.otherwise('/');
 
         .state('home', {
             url: '/',
-            template: '<h1>Test</h1>'
+            templateUrl: 'home.html'
         })
         .state('links', {
             url: '/links',
