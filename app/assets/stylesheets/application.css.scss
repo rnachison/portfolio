@@ -14,3 +14,24 @@
  *= require_self
  */
 @import 'bootstrap';
+
+body, html {
+
+	height: 100%;
+	width: 100%;
+
+	#index {
+
+		height: 100%;
+		width: 100%;
+
+		#home_view {
+
+			height: 100%;
+			text-align: center;
+
+		}
+
+	}
+
+}
