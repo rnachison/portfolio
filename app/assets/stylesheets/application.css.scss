@@ -28,12 +28,19 @@ body, html {
 		height: 100%;
 		width: 100%;
 		background-color: white;
+		font-family: $quicksand;
+
+		#email:hover {
+
+			color: black;
+			font-weight: bold;
+
+		}
 
 		#home_view {
 
 			height: 100%;
 			text-align: center;
-			font-family: $quicksand;
 
 			#name {
 
@@ -58,6 +65,13 @@ body, html {
 				font-size: 18px;
 
 			}
+
+		}
+
+		#contact_view {
+
+			font-size: 20px;
+			text-align: center;
 
 		}
 
