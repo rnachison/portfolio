@@ -11,9 +11,9 @@ $urlRouterProvider.otherwise('/');
             url: '/',
             templateUrl: 'home.html'
         })
-        .state('links', {
-            url: '/links',
-            templateUrl: 'links.html'
+        .state('bio', {
+            url: '/bio',
+            templateUrl: 'bio.html'
         })
 
 
