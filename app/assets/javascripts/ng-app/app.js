@@ -13,7 +13,7 @@ $urlRouterProvider.otherwise('/');
         })
         .state('links', {
             url: '/links',
-            template: '<h1>Another Test</h1>'
+            templateUrl: 'links.html'
         })
 
 
