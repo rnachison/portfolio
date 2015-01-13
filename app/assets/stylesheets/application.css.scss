@@ -16,6 +16,7 @@
 @import 'bootstrap';
 
 $josefin: 'Josefin Sans', sans-serif;
+$muli: 'Muli', sans-serif;
 
 body, html {
 
@@ -26,18 +27,34 @@ body, html {
 
 		height: 100%;
 		width: 100%;
-		background-color: rgb(233, 164, 255);
+		background-color: white;
 
 		#home_view {
 
 			height: 100%;
 			text-align: center;
 			font-family: $josefin;
-			background-color: rgb(233, 164, 255);
+
+			#name {
+
+				font-size: 52px;
+			}
+
+			#role {
+
+				font-size: 30px;
+
+			}
 
 			.pic {
 
 				// border: 3px solid yellow;
+
+			}
+
+			.col-md-4 {
+
+				font-size: 20px;
 
 			}
 
