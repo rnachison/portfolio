@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 #ruby version
-ruby "2.2.4"
+ruby "2.1.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -10,10 +10,10 @@ gem 'pg'
 gem 'bower-rails'
 # Angular templates
 gem 'angular-rails-templates'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
 # Use Twitter Bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -29,7 +29,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
 
 # Use factory girl for testing
 gem 'factory_girl_rails'
