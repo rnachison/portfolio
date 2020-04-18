@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.3.3",
+    "acorn": "^7.1.1",
     "bootstrap": "^4.4.1",
     "cookie-parser": "~1.4.4",
     "core-js": "^3.6.4",
