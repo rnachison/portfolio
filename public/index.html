@@ -5,16 +5,21 @@
   <meta charset="UTF-8">
   <title>Rebecca Nachison</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css' />
+  <script src="/jquery/jquery.min.js" type="text/javascript"></script>
+  <script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
   <div class="container page-container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a id="contact-link" onclick="changeText()" class="nav-link" href="#">Contact</a>
           </li>
@@ -39,22 +44,20 @@
       <h1 id="name">Rebecca Nachison</h1>
       <h2 id="projects">Projects</h2>
       <div class="row">
-        <div class="col-md-4 project-title">Night Forest</div>
-        <div class="col-md-4 project-title">Sauropsid Adoption</div>
-        <div class="col-md-4 project-title">Witch Tic Tac Toe (requires two browsers)</div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 project-image-wrapper">
+        <div class="col-md-4 project-title order-0">Night Forest</div>
+        <div class="col-md-4 project-image-wrapper order-md-3">
           <a href="https://sleepy-forest-7490.herokuapp.com" target="_blank">
             <img src="/images/fireflies.png" alt="Mystic Forest Astronomy App" title="Mystic Forest Astronomy App" class="img-fluid" />
           </a>
         </div>
-        <div class="col-md-4 project-image-wrapper">
+        <div class="col-md-4 project-title order-md-1">Sauropsid Adoption</div>
+        <div class="col-md-4 project-image-wrapper order-md-4">
           <a href="https://whispering-depths-6053.herokuapp.com/" target="_blank">
             <img src='/images/saxon.png' alt='Prehistoric Pet Adoption Site' title='Prehistoric Pet Adoption Site' class="img-fluid" />
           </a>
         </div>
-        <div class="col-md-4 project-image-wrapper">
+        <div class="col-md-4 project-title order-md-2">Witch Tic Tac Toe (requires two browsers)</div>
+        <div class="col-md-4 project-image-wrapper order-md-5">
           <a href="https://witch-game.firebaseapp.com/" target="_blank">
             <img src='/images/witches.png' class='img-fluid' alt='Two-Player Tic Tac Toe' title='Two-Player Tic Tac Toe' />
           </a>
@@ -64,7 +67,6 @@
 
   </div>
 
-  <!-- <script src="/js/bootstrap.min.js" type="text/javascript"></script> -->
   <script type="text/javascript">
     function changeText() {
       document.getElementById('contact-link').innerHTML = 'R.Nachison@gmail.com';
